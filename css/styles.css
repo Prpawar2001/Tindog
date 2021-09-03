@@ -1,0 +1,176 @@
+body {
+    font-family: 'Montserrat-black', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.lalign {
+    text-align: left;
+}
+
+.bgcolor1 {
+    background-color:#ff4c68;
+    color: white;
+}
+/* ----- Navigation Bar ----- */
+
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.nav-item {
+    padding: 10px 15px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.container {
+    padding-left: 0px;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+
+/* ----- Title ----- */
+
+
+.title-img {
+    width: 60%;
+    transform: rotate(25deg);
+    height: 600px;
+    width: 300px;
+    margin: 50px 50px 0px;
+}
+
+.download-btn {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+
+
+/* ----- Features ----- */
+
+
+#features {
+    display: flex;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: white;
+}
+
+#features p {
+    color: #787A91;
+}
+
+.feature-item {
+    padding: 10% 40px;
+}
+
+.icon {
+    color: #ff4c68;
+    margin-bottom: 10px;
+}
+
+.icon:hover {
+    color: grey; 
+}
+
+/* ----- Testimonials ----- */
+
+#testimonials {
+    padding: 20px 10%;
+}
+
+.testimonials-img {
+    border-radius: 50%;
+    margin: 50px 0px 0px ;
+}
+
+/* ----- Press ----- */
+
+#press {
+    padding: 30px 0px;
+}
+
+.press-img {
+    height: 60px;
+    width: 150px;
+    margin:50px 30px 0px;
+}
+
+/* ----- Price Section ----- */
+
+#pricing {
+    padding: 100px 10%;
+}
+
+.card {
+    margin: 40px 0px;
+}
+
+
+/* ----- Call to Action ----- */
+
+
+#cta {
+    padding: 10%;
+}
+
+
+/* Footer */
+
+
+#footer {
+    padding-top: 7%;
+    padding-bottom: 5%;
+}
+
+.footer-link {
+    margin: 30px 10px;
+    color: black;
+}
+
+/* Media Device Tab and Mobile Section*/
+
+@media (max-width: 993px) {
+    #title {
+        text-align: center;
+    }
+    .title-img {
+        transform: rotate(0);
+        height: 400px;
+        width: 200px;
+    }
+}
